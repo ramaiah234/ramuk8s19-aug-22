@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Replicationcontroller
 metadata: 
-  name:  mynginx-rc
+  name: mynginx-rc
 spec: 
   replicas: 3
   selector: 
-      app:  mynginx  
+      app: mynginx  
   template:
     metadata: 
        labels:
